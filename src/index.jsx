@@ -8,7 +8,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import './style.css'
 import Fade from '@mui/material/Fade';
 
 
