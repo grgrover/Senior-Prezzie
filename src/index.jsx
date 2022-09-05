@@ -8,7 +8,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import Fade from '@mui/material/Fade';
+
 
 
 export default function MediaCard() {
@@ -26,7 +26,6 @@ export default function MediaCard() {
       direction='column'
       alignItems='center'
       justify='center'>
-<Fade in={checked}>{icon}
       <CardMedia
         component="img"
         height="700"
@@ -41,7 +40,6 @@ export default function MediaCard() {
         <Typography variant="body2" color="text.secondary">
         </Typography>
       </CardContent>
-      </Fade>
     </Grid>
   );
 }
