@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { createRoot } from "react-dom/client";
 const root = createRoot(document.getElementById("root"));
 import Card from '@mui/material/Card';
@@ -8,18 +8,29 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
+import './style.css'
+import Fade from '@mui/material/Fade';
+
 
 export default function MediaCard() {
+
+
+
+  useEffect(() => {
+
+  }, [])
+
   return (
 
     <Grid sx={{ maxWidth: '100vw' }}
-    container
-    direction='column'
-    alignItems='center'
-    justify='center'>
+      container
+      direction='column'
+      alignItems='center'
+      justify='center'>
+<Fade in={checked}>{icon}
       <CardMedia
         component="img"
-        height="625"
+        height="700"
         width="auto"
         image="https://cdn.mos.cms.futurecdn.net/VsfnyTLzYvxJudvc2rb3uH.jpg"
         alt="tom"
@@ -31,10 +42,7 @@ export default function MediaCard() {
         <Typography variant="body2" color="text.secondary">
         </Typography>
       </CardContent>
-      {/* <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions> */}
+      </Fade>
     </Grid>
   );
 }
