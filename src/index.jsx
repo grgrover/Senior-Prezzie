@@ -31,14 +31,15 @@ export default function MediaCard() {
         component="img"
         height="700"
         width="auto"
-        image="https://cdn.mos.cms.futurecdn.net/VsfnyTLzYvxJudvc2rb3uH.jpg"
-        alt="tom"
+        image="https://insidethemagic.net/wp-content/uploads/2022/01/tobey-maguire-spider-man-no-way-home-scaled.jpg"
+        alt="tobey"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Tom Holland is the BEST SPIDERMAN
+          Tobey Maguire is the BEST SPIDERMAN
         </Typography>
         <Typography variant="body2" color="text.secondary">
+        Tobey Maguire gave audiences the best and most accurate version of Peter Parker. He perfectly illustrated both Spider-Man’s inner anxieties as well as his transformative superhero personality.
         </Typography>
       </CardContent>
     </Grid>
