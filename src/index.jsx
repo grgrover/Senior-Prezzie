@@ -37,7 +37,7 @@ export default function MediaCard() {
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
 
-          SPIDERMAN IS THE BEST SUPERHERO
+          TOM HOLLAND IS THE BEST SUPERMAN
         </Typography>
         <Typography variant="body2" color="text.secondary">
         </Typography>
